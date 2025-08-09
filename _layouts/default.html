@@ -8,24 +8,31 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <div class="page">
-    <aside class="sidebar">
-      <div class="branding">
+
+  <!-- HEADER ÚNICO -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
         <h1 class="name">{{ site.title }}</h1>
         <p class="tagline">{{ site.description }}</p>
       </div>
 
-      <div class="sidebar-controls">
-        <button id="theme-toggle" aria-label="Toggle theme">🌗</button>
+      <div class="header-actions">
+        <nav class="lang-switch">
+          {% for l in site.langs %}
+            <a class="lang{% if page.permalink == l.path %} active{% endif %}"
+               href="{{ l.path | relative_url }}">{{ l.label }}</a>
+          {% endfor %}
+        </nav>
+
+        <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌗</button>
       </div>
+    </div>
+  </header>
 
-      <nav class="lang-switch">
-        {% for l in site.langs %}
-          <a class="lang{% if page.permalink == l.path %} active{% endif %}"
-             href="{{ l.path | relative_url }}">{{ l.label }}</a>
-        {% endfor %}
-      </nav>
-
+  <!-- CORPO: SIDEBAR + CONTEÚDO -->
+  <div class="page">
+    <aside class="sidebar">
       {% include sidebar.html %}
     </aside>
 
@@ -44,11 +51,8 @@
       localStorage.setItem('theme', mode);
       btn.title = mode === 'light' ? 'Switch to dark' : 'Switch to light';
     };
-
-    // init
     const saved = localStorage.getItem('theme') || 'dark';
     applyTheme(saved);
-
     btn.addEventListener('click', () => {
       const next = document.body.classList.contains('light-mode') ? 'dark' : 'light';
       applyTheme(next);

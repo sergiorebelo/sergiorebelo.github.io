@@ -16,51 +16,67 @@ body{margin:0;background:var(--bg);color:var(--text);
   font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial}
 a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
-.page{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
 
-/* SIDEBAR */
-/* Sidebar sem scrollbar, rola com a página */
-.sidebar{
-  background: var(--panel);
-  border-right: 1px solid var(--border);
-  padding: 24px;
+/* HEADER */
+.site-header{
+  background:var(--panel);
+  border-bottom:1px solid var(--border);
+  padding:14px 18px;
+  position: sticky; top: 0; z-index: 10; 
 }
-.branding .name{margin:0 0 4px 0;font-size:22px}
-.branding .tagline{margin:0 0 16px 0;color:var(--muted);font-size:14px}
-
-.sidebar-controls{display:flex;justify-content:flex-end;margin-bottom:8px}
+.header-inner{
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+}
+.brand .name{margin:0; font-size:22px}
+.brand .tagline{margin:2px 0 0 0; color:var(--muted); font-size:14px}
+.header-actions{display:flex; align-items:center; gap:12px}
+.lang-switch .lang{
+  display:inline-block; margin-right:8px; padding:6px 10px;
+  border:1px solid var(--border); border-radius:999px; color:var(--muted)
+}
+.lang-switch .lang.active, .lang-switch .lang:hover{
+  border-color:var(--accent); color:var(--text)
+}
 #theme-toggle{
-  background:transparent;border:1px solid var(--border);color:var(--muted);
-  padding:6px 8px;border-radius:10px;cursor:pointer
+  background:transparent; border:1px solid var(--border);
+  color:var(--muted); padding:6px 10px; border-radius:10px; cursor:pointer
 }
-#theme-toggle:hover{color:var(--text);border-color:var(--accent)}
+#theme-toggle:hover{border-color:var(--accent); color:var(--text)}
 
-.sidebar-photo{text-align:center;margin:8px 0 16px}
+/* BODY GRID */
+.page{
+  max-width:1200px; margin:0 auto; padding:16px 18px 32px;
+  display:grid; grid-template-columns:320px 1fr; gap:28px;
+}
+
+/* SIDEBAR (sem sticky/scroll próprio) */
+.sidebar{
+  background:var(--panel); border:1px solid var(--border); border-radius:12px;
+  padding:20px;
+}
+.sidebar-photo{text-align:center; margin:8px 0 16px}
 .sidebar-photo img{
-  width:120px;height:120px;border-radius:50%;object-fit:cover;
-  border:3px solid var(--border);box-shadow:0 0 0 3px rgba(0,0,0,.1)
+  width:120px; height:120px; border-radius:50%; object-fit:cover;
+  border:3px solid var(--border); box-shadow:0 0 0 3px rgba(0,0,0,.08)
 }
-
-.lang-switch{margin:8px 0 16px 0}
-.lang{display:inline-block;margin-right:8px;padding:6px 10px;border:1px solid var(--border);
-  border-radius:999px;color:var(--muted)}
-.lang.active,.lang:hover{border-color:var(--accent);color:var(--text)}
-
-.sidebar-social{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 16px}
-.sidebar-social a{border:1px solid var(--border);padding:6px 10px;border-radius:8px;color:var(--muted)}
-.sidebar-social a:hover{border-color:var(--accent);color:var(--text)}
+.sidebar-social{display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 16px}
+.sidebar-social a{
+  border:1px solid var(--border); padding:6px 10px; border-radius:8px; color:var(--muted)
+}
+.sidebar-social a:hover{border-color:var(--accent); color:var(--text)}
 
 /* CONTENT */
-.content{padding:32px;max-width:900px}
-h1,h2,h3{line-height:1.25;margin:24px 0 10px 0}
-h1{font-size:28px} h2{font-size:20px;color:var(--accent)} h3{font-size:16px;color:var(--muted)}
-ul{padding-left:18px;margin:8px 0 16px 0}
-ul.plain{list-style:none;padding-left:0}
-.footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:16px}
+.content{max-width:900px}
+.content h1,h2,h3{line-height:1.25; margin:24px 0 10px}
+h1{font-size:28px} h2{font-size:20px; color:var(--accent)} h3{font-size:16px; color:var(--muted)}
+ul{padding-left:18px; margin:8px 0 16px}
+ul.plain{list-style:none; padding-left:0}
+.footer{margin-top:48px; color:var(--muted); font-size:13px; border-top:1px solid var(--border); padding-top:16px}
 code,pre{background:#0e1116;border:1px solid var(--border);border-radius:8px;padding:2px 6px}
 
 /* RESPONSIVE */
 @media (max-width: 900px){
   .page{grid-template-columns:1fr}
-  .content{padding:24px}
 }
+
