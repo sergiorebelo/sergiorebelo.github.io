@@ -1,10 +1,4 @@
-# Sérgio Rebelo
 
-**Engineering Leader & Hands-On Developer | Entrepreneur**  
-📍 Lisboa, Portugal · 📞 +351 926 355 901 · 📪 sergio.rebelo@gmail.com  
-🔗 [linkedin.com/in/sergiorebelo](https://www.linkedin.com/in/sergiorebelo)
-
----
 
 ## Sobre
 
