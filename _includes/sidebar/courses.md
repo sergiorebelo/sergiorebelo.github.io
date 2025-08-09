@@ -1,0 +1,8 @@
+- Advanced Java Programming — Learning Tree (2007)  
+- SCRUM & Agile Practices — Reaktor (2008)  
+- Test Driven Development in Java — Reaktor (2008)  
+- DWDM Basics — Siemens ITC (2006)  
+- Enterprise Java Beans — Learning Tree (2004)  
+- Distributed Systems with Java — Learning Tree (2006)  
+- Java Swing Applications — Learning Tree (2004)  
+- DOORS for Requirements — Telelogic Academy (2006)

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <div class="branding">
+        <h1 class="name">{{ site.title }}</h1>
+        <p class="tagline">{{ site.description }}</p>
+      </div>
+
+      <nav class="lang-switch">
+        {% for l in site.langs %}
+          <a class="lang{% if page.permalink == l.path %} active{% endif %}"
+             href="{{ l.path | relative_url }}">{{ l.label }}</a>
+        {% endfor %}
+      </nav>
+
+      {% include sidebar.html %}
+    </aside>
+
+    <main class="content">
+      {{ content }}
+      <footer class="footer">
+        <p>© {{ "now" | date: "%Y" }} {{ site.title }} · Built with Jekyll · <a href="https://github.com">GitHub Pages</a></p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

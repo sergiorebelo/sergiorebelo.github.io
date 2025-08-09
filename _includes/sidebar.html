@@ -1,0 +1,28 @@
+<section>
+  {% capture contact %}{% include sidebar/contact.md %}{% endcapture %}
+  {{ contact | markdownify }}
+</section>
+
+<section>
+  <h2>Skills</h2>
+  {% capture skills %}{% include sidebar/skills.md %}{% endcapture %}
+  {{ skills | markdownify }}
+</section>
+
+<section>
+  <h2>Licenses & Certifications</h2>
+  {% capture certs %}{% include sidebar/certifications.md %}{% endcapture %}
+  {{ certs | markdownify }}
+</section>
+
+<section>
+  <h2>Courses</h2>
+  {% capture courses %}{% include sidebar/courses.md %}{% endcapture %}
+  {{ courses | markdownify }}
+</section>
+
+<section>
+  <h2>Languages</h2>
+  {% capture languages %}{% include sidebar/languages.md %}{% endcapture %}
+  {{ languages | markdownify }}
+</section>

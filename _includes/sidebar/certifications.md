@@ -1,0 +1,7 @@
+- **PSM I** — Scrum.org (2023)  
+- **EF SET English C2** — EF SET (2022)  
+- **DevOps Foundations** — LinkedIn (2024)  
+- **CI/CD Foundations** — LinkedIn (2024)  
+- **Java Essentials / Data Structures** — LinkedIn (2024)  
+- **Git / GitHub** — LinkedIn (2024)  
+- **Learning Quarkus** — LinkedIn (2024)
