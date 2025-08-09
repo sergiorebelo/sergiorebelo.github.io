@@ -19,8 +19,12 @@ a:hover{text-decoration:underline}
 .page{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
 
 /* SIDEBAR */
-.sidebar{background:var(--panel);border-right:1px solid var(--border);
-  padding:24px;position:sticky;top:0;height:100vh;overflow:auto}
+/* Sidebar sem scrollbar, rola com a página */
+.sidebar{
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+  padding: 24px;
+}
 .branding .name{margin:0 0 4px 0;font-size:22px}
 .branding .tagline{margin:0 0 16px 0;color:var(--muted);font-size:14px}
 
@@ -58,6 +62,5 @@ code,pre{background:#0e1116;border:1px solid var(--border);border-radius:8px;pad
 /* RESPONSIVE */
 @media (max-width: 900px){
   .page{grid-template-columns:1fr}
-  .sidebar{position:relative;height:auto}
   .content{padding:24px}
 }
