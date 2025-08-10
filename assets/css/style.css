@@ -28,8 +28,8 @@ a:hover{text-decoration:underline}
   max-width:1200px; margin:0 auto;
   display:flex; align-items:center; justify-content:space-between; gap:16px;
 }
-.brand .name{margin:0; font-size:22px}
-.brand .tagline{margin:2px 0 0 0; color:var(--muted); font-size:14px}
+.brand .name{margin:0; font-size:32px}
+.brand .tagline{margin:2px 0 0 0; color:var(--muted); font-size:24px}
 .header-actions{display:flex; align-items:center; gap:12px}
 .lang-switch .lang{
   display:inline-block; margin-right:8px; padding:6px 10px;
