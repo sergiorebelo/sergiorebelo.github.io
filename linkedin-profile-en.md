@@ -1,24 +1,33 @@
-
-
 ## About
 
-I am an engineering leader, entrepreneur, and hands-on backend developer with over 20 years of experience. My career spans building products as an individual contributor, scaling high-performing teams, and leading organisations from early-stage startups to global enterprises.
+I am an engineering leader and entrepreneur with over 20 years of experience. My career spans building products as an individual contributor, scaling high-performing teams, and leading organisations from early-stage startups to global enterprises.
 
-I have delivered complex, high-availability systems, scaled engineering organisations during rapid growth, and built cultures where diverse, autonomous teams thrive. My technical work includes Java development, event-driven architectures, CI/CD automation, Kubernetes operations, and cloud-native delivery.
+I have delivered complex, high-availability systems, scaled engineering organisations during rapid growth, and built cultures where diverse, autonomous teams thrive. My recent technical work includes Java development, event-driven architectures, CI/CD automation, Kubernetes operations, and cloud-native delivery.
 
 I am passionate about developing engineers into leaders, reducing process friction, and balancing speed with maintainability. My entrepreneurial ventures have strengthened my ability to connect product strategy with execution, from MVP to scale.
 
-Today, I work as a developer to stay close to the technology while applying my leadership experience in mentoring, technical decision-making, and driving best practices within the team.
+Today, I lead JYSK's Lisbon Tech Hub, acting as the on-the-ground proxy for the company's Denmark head office, applying my leadership experience in team building, technical hiring, and mentoring.
 
 ---
 
 ## Experience
 
+### **JYSK / INSCALE** — *Lisbon, Portugal*
+#### Engineering Team Lead, Lisbon Hub (JYSK) / Software Development Team Lead (INSCALE)
+*Jan 2026 – Present*  
+- Team Leader for JYSK's new Lisbon Tech Hub, its first, contracted through INSCALE (local operating partner for recruiting, facilities, HR, and finance) while working directly for JYSK.  
+- As the only JYSK management presence in Lisbon, took on de facto local proxy functions for the Denmark-based head office beyond formal scope: people management, performance, and career development across multiple product areas.  
+- Drove hiring as a core focus: sourcing, technical interviews, and closing for the founding engineering cohort.  
+- Local anchor point for JYSK's tech culture and processes, including regular travel to Denmark for team alignment.  
+**Skills:** People Management, Site Leadership, Technical Hiring, Cross-Border Stakeholder Alignment, Agile Coaching
+
+---
+
 ### **Critical TechWorks | BMW Group** — *Lisbon, Portugal*
 #### Software Engineer  
-*Jan 2024 – Present*  
-- Deliver vehicle-data services with Java/Quarkus, Angular front-ends, and event-driven architecture.  
-- Build CI/CD pipelines and manage multi-tenant Kubernetes clusters on Azure using IaC.  
+*Jan 2024 – Dec 2025*  
+- Delivered vehicle-data services with Java/Quarkus, Angular front-ends, and event-driven architecture.  
+- Built CI/CD pipelines and managed multi-tenant Kubernetes clusters on Azure using IaC.  
 **Skills:** Java, Quarkus, Angular, PostgreSQL, Kubernetes (AKS), Azure DevOps, CI/CD, Grafana, Infrastructure as Code
 
 #### Head of Interactions  
@@ -57,40 +66,14 @@ Today, I work as a developer to stay close to the technology while applying my l
 
 ---
 
-### **BookingMarkets** — *Lisbon, Portugal (Remote)*  
-#### Product Developer & VP for Portuguese-speaking Markets  
-*Jun 2011 – Apr 2012*  
-- Led product development, feature analysis, integrations, and online marketing.  
-- Managed operations and customer service in Portuguese-speaking regions.  
-- Increased user engagement and market growth.  
-**Skills:** Product Management, Operations, Business Development
-
----
-
-### **LetMeGo** — *Portugal*  
-#### Co-Founder & COO for Portuguese-speaking Markets  
-*Nov 2010 – Dec 2011*  
-- Managed operations, business development, and marketing for LetMeGo Portugal and Brasil.  
-- LetMeGo was the first marketplace combining hotels, vacation rentals, and private lodging.  
-**Skills:** Operations, Growth Hacking, Product Development
-
----
-
-### **Localo** — *New York, United States (Remote)*  
-#### Co-Founder & COO in Portugal  
-*May 2011 – Nov 2011*  
-- Managed operations, business development, and marketing for Localo in Portugal.  
-- Unique lodging marketplace where hosts bid for travelers.  
-**Skills:** Operations Management, Online Marketing
-
----
-
-### **QualquerDestino** — *Portugal*  
-#### Co-Founder  
-*May 2010 – Nov 2010*  
-- Launched an online marketplace connecting travelers and hosts.  
-- Merged into LetMeGo Portugal.  
-**Skills:** Startup Leadership, Product Development
+### **QualquerDestino → LetMeGo → Localo → BookingMarkets** — *Lisbon & New York (Remote)*
+#### Co-Founder / Ops Lead / Product Manager  
+*May 2010 – Apr 2012*  
+- Co-founded and launched a travel-platform startup connecting travelers and hosts in Portuguese-speaking markets, starting as QualquerDestino.  
+- Rebranded into LetMeGo, the first marketplace combining hotels, vacation rentals, and private lodging, expanding into Brazil.  
+- Launched Localo with the same team as a new flavour of the platform, a lodging marketplace where hosts bid for travelers.  
+- When traction stalled, led the pivot into BookingMarkets, carrying the team and lessons learned into product development, integrations, and online marketing for Portuguese-speaking markets.  
+**Skills:** Startup Leadership, Product Development, Operations, Growth Hacking, Business Development
 
 ---
 
@@ -114,7 +97,7 @@ Today, I work as a developer to stay close to the technology while applying my l
 
 ## Skills
 
-- **Leadership & Management:** Engineering Leadership, People Management, Agile Coaching, Scaling Teams, Organizational Development  
+- **Leadership & Management:** Engineering Leadership, Site Leadership, People Management, Agile Coaching, Scaling Teams, Organizational Development  
 - **Technical:** Java, Quarkus, Kubernetes, Azure AKS, PostgreSQL, CI/CD, Event-Driven Architecture, Infrastructure as Code  
 - **Entrepreneurship:** Startup Creation, Product Development, Business Strategy, Growth Hacking
 
