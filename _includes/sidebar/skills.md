@@ -1,9 +1,11 @@
 #### Leadership
 - Engineering Leadership  
+- Site Leadership  
 - People Management  
+- Technical Hiring  
 - Agile Coaching  
 - Organisational Scaling  
-- Stakeholder Alignment  
+- Cross-Border Stakeholder Alignment  
 
 #### Technical
 - Java, Quarkus  
